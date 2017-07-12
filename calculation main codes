@@ -1,6 +1,7 @@
-print('What do you wish to do?')
+#ask for intention
 print('You can choose "add", "subtract", "multiply", or "division"')
-input('')
+input('What do you wish to do? Please specify in full phrase')
 
+#ask for numbers
 Number1 = float(input('insert your first number:'))
 Number2
