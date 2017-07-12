@@ -8,23 +8,24 @@ Number2 = float(input('insert your second number:'))
 
 #start calculation
 #while True:
+
 if Intention == 'add':
   print(Number1 + Number2
 elif Intention == 'subtract':
- print(Number1 - Number2)
+  print(Number1 - Number2)
 elif Intention == 'multiply':
- print(Number1 * Number2)
+  print(Number1 * Number2)
 elif Intention == 'division':
   print(Number1/Number2)
 elif int(Intention)/1 >= 0:
- print('please enter add, subtract, multiply or division only!')
- raise ValueError
+  print('please enter add, subtract, multiply or division only!')
+  raise ValueError
 elif int(Intention)/1 <= 0:
   print('please enter add, subtract, multiply or division only!')
   raise ValueError
 else:
  print('please enter add, subtract, multiply or division only!')
-  raise NameError("You are very stupid! Please follow instruction!!")
+ raise NameError("You are very stupid! Please follow instruction!!")
 NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
 if Newcalculation == 'Yes' or 'yes' or 'YES'
 
