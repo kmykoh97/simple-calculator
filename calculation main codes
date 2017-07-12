@@ -1,0 +1,6 @@
+print('What do you wish to do?')
+print('You can choose "add", "subtract", "multiply", or "division"')
+input('')
+
+Number1 = float(input('insert your first number:'))
+Number2
