@@ -15,9 +15,17 @@ elif Intention == 'multiply':
   print(Number1 * Number2)
 elif Intention == 'division':
   print(Number1/Number2)
-elif Intention :
-  
+elif Intention
   print('')
   raise ValueError
 NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
 if Newcalculation
+
+
+try:
+      if Intention/1 >= 0:		      if Intention/1 >= 0:
+ -    raise ValueError		 +      raise ValueError
+ -    elif Intention/1 		 +    elif Intention/1 <= 0:
+ +      raise ValueError
+ +    else:
+ +      raise UnknownError
