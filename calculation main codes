@@ -24,13 +24,8 @@ while True:
   else:
     print('please enter add, subtract, multiply or division only!')
     raise NameError("You are very stupid! Please follow instruction!!")
-  while True:
-    NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
-    if Newcalculation in ('y', 'n'):
-      break
-    print ('Invalid input.')
-  if NewCalculation == 'yes'
+  NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
+  if NewCalculation == 'yes' or 'YES' or 'Yes':
     continue
   else:
-    print('thank you, Goodbye')
     break
