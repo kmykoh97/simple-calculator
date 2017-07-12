@@ -1,7 +1,43 @@
 #ask for intention
 print('You can choose "add", "subtract", "multiply", or "division"')
-input('What do you wish to do? Please specify in full phrase')
+Intention = input('What do you wish to do? Please specify in full phrase:')
 
 #ask for numbers
 Number1 = float(input('insert your first number:'))
-Number2
+Number2 = float(input('insert your second number:'))
+
+#start calculation
+#while True:
+
+if Intention == 'add':
+  print('Your answer is ' + str(Number1 + Number2))
+elif Intention == 'subtract':
+  print('Your answer is ' + str(Number1 - Number2))
+elif Intention == 'multiply':
+  print('Your answer is ' + str(Number1 * Number2))
+elif Intention == 'division':
+  print('Your answer is ' + str(Number1/Number2))
+elif int(Intention)/1 >= 0:
+  print('please enter add, subtract, multiply or division only!')
+  raise ValueError
+elif int(Intention)/1 <= 0:
+  print('please enter add, subtract, multiply or division only!')
+  raise ValueError
+else:
+ print('please enter add, subtract, multiply or division only!')
+ raise NameError("You are very stupid! Please follow instruction!!")
+NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
+if Newcalculation == 'Yes' or 'yes' or 'YES'
+
+
+#try code
+try:
+  if Intention/1 >= 0:
+    raise ValueError
+    print('please enter add, subtract, multiply or division only!')
+  elif Intention/1 <= 0:
+    raise ValueError
+    print('please enter add, subtract, multiply or division only!')
+  else:
+    print('please enter add, subtract, multiply or division only!')
+    raise NameError("You are very stupid! Please follow instruction!!")
