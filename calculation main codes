@@ -13,3 +13,10 @@ elif Intention == subtract:
   print(Number1 - Number2)
 elif Intention == multiply:
   print(Number1 * Number2)
+elif Intention == division:
+  print(Number1/Number2)
+else:
+  try:
+    if Intention/1 >= 0:
+    raise ValueError
+    elif Intention/1 
