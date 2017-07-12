@@ -7,21 +7,17 @@ Number1 = float(input('insert your first number:'))
 Number2 = float(input('insert your second number:'))
 
 #start calculation
-if Intention == add:
+if Intention == 'add':
   print(Number1 + Number2)
-elif Intention == subtract:
+elif Intention == 'subtract':
   print(Number1 - Number2)
-elif Intention == multiply:
+elif Intention == 'multiply':
   print(Number1 * Number2)
-elif Intention == division:
+elif Intention == 'division':
   print(Number1/Number2)
-else:
-  try:
-    if Intention/1 >= 0:
-      raise ValueError
-    elif Intention/1 <= 0:
-      raise ValueError
-    else:
-      raise UnknownError
+elif Intention :
+  
+  print('')
+  raise ValueError
 NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
 if Newcalculation
