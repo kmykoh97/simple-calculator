@@ -26,11 +26,11 @@ while True:
     raise NameError("You are very stupid! Please follow instruction!!")
   while True:
     NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
-    if answer in ('y', 'n'):
+    if Newcalculation in ('y', 'n'):
       break
-      print 'Invalid input.'
-  if Newcalculation == 'yes'
-      continue
-    else:
-      print('thank you, Goodbye')
-      break
+    print ('Invalid input.')
+  if NewCalculation == 'yes'
+    continue
+  else:
+    print('thank you, Goodbye')
+    break
