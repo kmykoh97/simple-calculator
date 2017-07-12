@@ -1,0 +1,5 @@
+#simple calculator program
+print(‘Welcome \n This is a calculator’)
+input(‘Please insert your name:’)
+While true:
+  if 
