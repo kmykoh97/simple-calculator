@@ -1,7 +1,15 @@
 #ask for intention
 print('You can choose "add", "subtract", "multiply", or "division"')
-input('What do you wish to do? Please specify in full phrase')
+Intention = input('What do you wish to do? Please specify in full phrase:')
 
 #ask for numbers
 Number1 = float(input('insert your first number:'))
-Number2
+Number2 = float(input('insert your second number:'))
+
+#start calculation
+if Intention == add:
+  print(Number1 + Number2)
+elif Intention == subtract:
+  print(Number1 - Number2)
+elif Intention == multiply:
+  print(Number1 * Number2)
