@@ -18,5 +18,10 @@ elif Intention == division:
 else:
   try:
     if Intention/1 >= 0:
-    raise ValueError
-    elif Intention/1 
+      raise ValueError
+    elif Intention/1 <= 0:
+      raise ValueError
+    else:
+      raise UnknownError
+NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
+if Newcalculation
