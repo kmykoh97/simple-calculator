@@ -1,5 +1,8 @@
 #simple calculator program
+#introduction
 print(‘Welcome \n This is a calculator’)
-input(‘Please insert your name:’)
+
+#request name
+Name = input(‘Please insert your name:’)
 While true:
-  if 
+  if  Name == 
