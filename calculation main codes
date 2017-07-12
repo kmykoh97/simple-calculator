@@ -15,17 +15,27 @@ elif Intention == 'multiply':
   print(Number1 * Number2)
 elif Intention == 'division':
   print(Number1/Number2)
-elif Intention
-  print('')
+elif Intention/1 >= 0:
   raise ValueError
+  print('please enter add, subtract, multiply or division only!')
+elif Intention/1 <= 0:
+  raise ValueError
+  print('please enter add, subtract, multiply or division only!')
+else:
+  print('please enter add, subtract, multiply or division only!')
+  raise NameError("You are very stupid! Please follow instruction!!")
 NewCalculation = input('Thank you for using me, do you want to start a new calculation?')
-if Newcalculation
+if Newcalculation == 'Yes' or 'yes' or 'YES'
 
 
+#try code
 try:
-      if Intention/1 >= 0:		      if Intention/1 >= 0:
- -    raise ValueError		 +      raise ValueError
- -    elif Intention/1 		 +    elif Intention/1 <= 0:
- +      raise ValueError
- +    else:
- +      raise UnknownError
+  if Intention/1 >= 0:
+    raise ValueError
+    print('please enter add, subtract, multiply or division only!')
+  elif Intention/1 <= 0:
+    raise ValueError
+    print('please enter add, subtract, multiply or division only!')
+  else:
+    print('please enter add, subtract, multiply or division only!')
+    raise NameError("You are very stupid! Please follow instruction!!")
