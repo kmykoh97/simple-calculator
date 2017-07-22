@@ -6,4 +6,3 @@ print(‘Welcome \n This is a calculator’)
 Name = input(‘Please insert your name:’)
 While true:
   if  Name == 
-xzsxsxsxsxsxxsxs
