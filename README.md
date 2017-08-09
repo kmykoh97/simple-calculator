@@ -1,4 +1,6 @@
 # simple-calculator
-my first calculator using python
+## Python(more different languages will be added)
+my first program using python
 
-This calculator can only do addition, multiplication, substracton and division.
+This simple calculator can only do addition, multiplication, substracton and division.
+More function will be added when I am free.
